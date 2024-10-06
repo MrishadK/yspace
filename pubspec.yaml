@@ -1,0 +1,47 @@
+name: yspace
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.2
+  path_provider: ^2.1.4
+  pdf: ^3.11.1
+  url_launcher: ^6.3.0
+  dio: ^5.7.0
+  permission_handler: ^11.3.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/53686360156_a0fd47ef72_o.png
+    - assets/images/logo.png
+    - assets/images/logo_animation.mp4
+    - assets/images/Proxima.jpg
+    - assets/images/Gliese 667Cc.jpg
+    - assets/images/Keplar45.jpg
+    - assets/images/Kepler22b-.jpg
+    - assets/images/TRAPPIST-1d.png
+    - assets/images/HD_40307.jpg
+    - assets/images/Kepler452b.gif
+    - assets/images/Gliese 667Cc.pdf
+    - assets/images/HD 40307 g.pdf
+    - assets/images/KEPLER-22b.pdf
+    - assets/images/KEPLER-452b.pdf
+    - assets/images/PROXIMA CENTAURI B.pdf
+    - assets/images/TRAPPIST-1d.pdf
